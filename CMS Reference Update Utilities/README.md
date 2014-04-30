@@ -1,0 +1,1 @@
+UpdateReference updates references through powershell pattern matching. Updates the CMS reference XML based on the pattern or if no pattern is present all pages get updated. Refer to the comments at the start of the script. touchUpdateDone just does a powershell equivalent of Unix touch on a file.
