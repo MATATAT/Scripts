@@ -10,7 +10,7 @@ function execCmd($cmd) {
 }
 
 # Precautionary revert
-execCmd("revert")
+execCmd("revert -a")
 
 #####################
 ## Integrate files ##
@@ -28,7 +28,7 @@ execCmd("resolve -o -am")
 ## Revert unchanged files ##
 ############################
 echo "Reverting files..."
-execCmd("revert")
+execCmd("revert -a")
 
 #######################
 ## Create changelist ##
