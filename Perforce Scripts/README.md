@@ -1,0 +1,1 @@
+Was starting to write in Python using P4Python API but then realized it was easier to just use the command line commands since that was what I was doing anyway.
